@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.jpeg);
+    background-image: url(images/BACKGROUND-DESKTOP.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -29,7 +29,7 @@ nav{
     flex-wrap: wrap;
 }
 .logo{
-    width: 140px;
+    width: 200px;
 }
 nav ul li{
     display: inline-block;
@@ -40,7 +40,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 28px;
     position: relative;
 }
 nav ul li a::after{
@@ -51,7 +51,7 @@ nav ul li a::after{
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: 0.5s;
+    transition: 1.9s;
 
 }
 nav ul li a:hover::after{
@@ -72,7 +72,7 @@ nav ul li a:hover::after{
 }
 
 #about{
-    padding: 80px 0;
+    padding: 60px 0;
     color: #ababab;
 }
 .row{
@@ -84,11 +84,11 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 100%;
-    border-radius: 15px;
+    width: 120%;
+    border-radius: 5px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 .subtitle{
     font-size: 60px;
@@ -114,7 +114,7 @@ nav ul li a:hover::after{
     position: absolute;
     left: 0;
     bottom: -8px;
-    transition: 0.5s;
+    transition: 0.9s;
 
 }
 .tab-links.active-link::after{
@@ -142,7 +142,7 @@ nav ul li a:hover::after{
 }
 .projects-lists{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,2fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
@@ -152,7 +152,7 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
-    transition: background o.5s, tarnsform 0.5s;
+    transition: background 0.9s, tarnsform 0.9s;
 }
 .projects-lists div i {
     font-size: 50px;
@@ -190,7 +190,7 @@ nav ul li a:hover::after{
     position: relative;
     overflow: hidden;
 }
-work img{
+.work img{
     width: 50%;
     border-radius: 10px;
     display: block;
@@ -274,7 +274,7 @@ work img{
 
 }
 .contact-right{
-    flex-basis: 60%;
+    flex-basis: 50%;
 
 }
 .contact-left p{
@@ -290,15 +290,15 @@ work img{
 }
 .social-media a{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 70px;
     color: #ababab;
-    display: inline-block;
-    transition: 0.5s;
+    display: inline-block ;
+    transition: 0.9s;
 
 }
 .social-media a:hover{
     color: #ff004f;
-    transform: translateY(-5px);
+    transform: translateY(-30px);
 }
 .btn.btn2{
     display: inline-block;
@@ -325,6 +325,7 @@ form .btn2{
     margin-top: 20px;
     cursor: pointer;
 }
+
 .copyright{
     width: 100%;
     text-align: center;
@@ -335,6 +336,7 @@ form .btn2{
 }
 .copyright i{
     color: #ff004f;
+    
 }
 /*-----------css for phone----------*/
 nav .fa-solid{
@@ -343,7 +345,7 @@ nav .fa-solid{
 
 @media only screen and (max-width:600px) {
     #header{
-        background-image: url(images/phone-background.jpg);
+        background-image: url(images/phone-background-1.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -357,7 +359,8 @@ nav .fa-solid{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: grey;
+        opacity: 0.5;
         position: fixed;
         top: 0;
         right: -200px;
@@ -397,7 +400,7 @@ nav .fa-solid{
         flex-basis: 100%;
     }
     .copyright{
-        font-size: 25px;
+        font-size: 10px;
     }
 
 
